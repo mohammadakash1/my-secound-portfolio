@@ -2,7 +2,7 @@
     background: url('../images/images/banner/banner3.png');
     width: 1600px;
     height: 808px;
-    flex-shrink: 0;
+    margin: 0px;
 
 }
 
@@ -30,11 +30,203 @@
 .primary-button {
     width: 160px;
     height: 64px;
-    flex-shrink: 0;
+
     border-radius: 5px;
     background: #FFF;
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
-    margin: 32px 230px 165px 1210px;
+    margin: 32px 230px 0px 1210px;
+}
+
+.img {
+    margin-left: 277px;
+    margin-top: 140px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin: -500px 450px 24px 900px;
+}
+
+.section-description {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 322px 16px 900px;
+}
+
+.section-group {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 900px;
+
+}
+
+.section-header {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.section-title-2 {
+    color: #151414;
+    margin-left: 790px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.skills-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.skills-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.one {
+    margin-left: 60px;
+}
+
+.two {
+    margin-left: 20px;
+}
+
+.three {
+    margin-left: 25px;
+}
+
+.four {
+    margin-left: 20px;
+}
+
+.section-3 {
+    background: url('../images/images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 130px 230px 0px 300px;
+
+}
+
+.section-3-title {
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 617px 0px 65px;
+}
+
+.button {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 0px 0px 62px;
+
+}
+
+.footer {
+    width: 1600px;
+    height: 577px;
+    flex-shrink: 0;
+    background: #151414;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 130px 0px 0px 230px;
+}
+
+.footer-description {
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 230px;
+
+}
+
+.social-link {
+    width: 175px;
+    height: 46px;
+    flex-shrink: 0;
+    padding-left: 230px;
+}
+
+.Subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 130px 430px 0px 1046px;
+
+
+}
+
+footer {
+    display: flex;
+}
+
+.footer-colum {}
+
+.contact input,
+button {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.button-2 {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #005FAC;
+    margin-left: 230px;
+}
+
+.email {
+    margin-left: 230px;
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 21px;
+    background-color: #151414;
+    border: 1px solid #FFF;
 }
